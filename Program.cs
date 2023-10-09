@@ -19,8 +19,8 @@ namespace KlassenEnEvents
 
             var boek1 = new Boek(456451, "NPel", "test", 7);
             var boek2 = new Boek(216487, "Ngix", "saml", 11);
-            var tijdschrift1 = new Tijdschrift(137699, "Ngix", "saml", 51);
-            var tijdschrift2 = new Tijdschrift(791846, "Folk", "NesG", 2);
+            var tijdschrift1 = new Tijdschrift(137699, "Ngix", "saml", 51, VerschijningsPerioden.Maandelijks);
+            var tijdschrift2 = new Tijdschrift(791846, "Folk", "NesG", 2, VerschijningsPerioden.Dagelijks);
 
             Bestelling<Boek> bestelling1 = new Bestelling<Boek> { };
             bestelling1.Aantal = 4;

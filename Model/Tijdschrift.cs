@@ -18,11 +18,14 @@ namespace KlassenEnEvents.Model
         public VerschijningsPerioden VerschijningsPeriode;
 
         public Tijdschrift() { }
-        public Tijdschrift(int Isbn, string Naam, string Uitgever, double Prijs) : base(Isbn, Naam, Uitgever, Prijs) { }
+        public Tijdschrift(int Isbn, string Naam, string Uitgever, double Prijs, VerschijningsPerioden VerschijningsPeriode) : base(Isbn, Naam, Uitgever, Prijs)
+        {
+            this.VerschijningsPeriode = VerschijningsPeriode;
+        }
 
         public override string ToString()
         {
-            return base.ToString();
+            return base.ToString() + ", verschijningsperiode: " + VerschijningsPeriode;
         }
 
         public override void Lees()
