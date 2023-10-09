@@ -25,7 +25,6 @@ namespace KlassenEnEvents.Model
         public Bestelling()
         {
             Id = 0; //roep setter van Id om deze te updaten bij instantiatie van een object
-            Console.WriteLine("Bestelling met id " + Id + " aangemaakt");
         }
 
         public Tuple<int, int, double>? Bestel(T boek)
