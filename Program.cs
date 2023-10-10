@@ -84,7 +84,6 @@ namespace KlassenEnEvents
 
                         Console.WriteLine("Geef de naam in van je tijdschrift:");
                         nieuwTijdschrift.Naam = Console.ReadLine();
-                        nieuwTijdschrift.Naam = Console.ReadLine();
 
                         Console.WriteLine("Geef de naam in van de auteur:");
                         nieuwTijdschrift.Uitgever = Console.ReadLine();
